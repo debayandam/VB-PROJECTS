@@ -114,13 +114,14 @@ Partial Class Form1
         '
         'Button10
         '
+        Me.Button10.BackColor = System.Drawing.Color.Lime
         Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button10.Location = New System.Drawing.Point(181, 368)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(226, 47)
         Me.Button10.TabIndex = 9
         Me.Button10.Text = "Next Round"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.Button10.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -181,6 +182,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Yellow
         Me.ClientSize = New System.Drawing.Size(713, 444)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -198,7 +200,10 @@ Partial Class Form1
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
