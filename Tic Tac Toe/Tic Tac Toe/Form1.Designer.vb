@@ -145,7 +145,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(642, 167)
+        Me.Label3.Location = New System.Drawing.Point(570, 167)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(16, 17)
         Me.Label3.TabIndex = 12
@@ -154,7 +154,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(642, 231)
+        Me.Label4.Location = New System.Drawing.Point(570, 231)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(16, 17)
         Me.Label4.TabIndex = 13
@@ -182,8 +182,8 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Yellow
-        Me.ClientSize = New System.Drawing.Size(713, 444)
+        Me.BackColor = System.Drawing.Color.Red
+        Me.ClientSize = New System.Drawing.Size(645, 444)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
